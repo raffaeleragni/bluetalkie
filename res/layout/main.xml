@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<ImageView
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:src="@drawable/background"
+    	android:scaleType="fitXY"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+	
+		<ImageView
+			android:layout_width="175dip"
+			android:layout_height="35dip"
+			android:scaleType="fitXY"
+    		android:src="@drawable/title"
+    		android:layout_gravity="center"
+    		android:layout_marginTop="20dip"
+    		android:layout_marginBottom="15dip"/>
+	
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="20dip"
+			android:paddingBottom="10dip"
+			android:paddingLeft="20dip"
+			android:paddingRight="20dip"
+			android:paddingTop="10dip"
+			android:id="@+id/layout_main_btnOpenChannel"
+			android:text="@string/layout_main_btnOpenChannel"/>
+	
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="20dip"
+			android:id="@+id/layout_main_btnJoin"
+			android:text="@string/layout_main_btnJoin"
+			android:paddingBottom="10dip"
+			android:paddingTop="10dip"
+			android:paddingLeft="20dip"
+			android:paddingRight="20dip"/>
+		
+	</LinearLayout>
+	
+</RelativeLayout>
+

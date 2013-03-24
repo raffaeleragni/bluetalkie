@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">bluetalkie</string>
+    <string name="service_active_channel">bluetalkie: Active channel</string>
+    <string name="err_bluetoothNotAvailable">Bluetooth is not available</string>
+    <string name="err_bluetoothNotEnabled">Bluetooth is not enabled, leaving</string>
+    <string name="layout_preferences_title">Preferences</string>
+    <string name="menu_main_about">Help</string>
+    <string name="menu_main_pairing">Pairing</string>
+    <string name="menu_main_settings">Settings</string>
+    <string name="layout_main_appTitle">Blue Talkie</string>
+    <string name="layout_main_btnOpenChannel">Open new channel</string>
+    <string name="layout_main_btnJoin">Join channel</string>
+    <string name="layout_channel_title">Channel</string>
+    <string name="layout_pairing_title">Pairing</string>
+    <string name="dialog_about_text"><![CDATA[Blue Talkie\n
+- Step 1: pair the bluetooth devices (you can use menu/pairing to jump into the android pairing screen)\n
+- Step 2: a user will act as the host, this user clicks on \"open new channel\"\n
+- Step 3: all the other users click on \"Join channel\" and select the device previously paired\n
+- Step 4: hold the \"click to talk\" button while talking]]></string>
+    <string name="menu_channel_quit">Quit</string>
+    <string name="layout_channel_user_connected">User Connected</string>
+    <string name="layout_channel_user_disconnected">User Disconnected</string>
+    <string name="layout_channel_connected">Connected</string>
+    <string name="layout_channel_connecting">Connecting...</string>
+    <string name="layout_channel_userConnected">Users connected</string>
+    <string name="preference_cat_mydetails">My details</string>
+    <string name="preference_lbl_myname">My name</string>
+    <string name="preference_cat_sounds">Sounds</string>
+    <string name="preference_lbl_clicksound">Click sound</string>
+    <string name="preference_lbl_voiceactivated">Voice activated chat</string>
+    <string name="layout_channel_btnClickToTalk">Click to talk</string>
+    <string name="layout_channel_btnCloseChannel">Close channel</string>
+    <string-array name="beepSoundsList">
+        <item>click</item>
+        <item>beep</item>
+    </string-array>
+</resources>

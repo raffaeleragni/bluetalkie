@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">bluetalkie</string>
+    <string name="service_active_channel">bluetalkie: Canale attivo</string>
+    <string name="err_bluetoothNotAvailable">Bluetooth non disponibile</string>
+    <string name="err_bluetoothNotEnabled">Bluetooth non abilitato, uscita</string>
+    <string name="layout_preferences_title">Preferenze</string>
+    <string name="menu_main_about">Aiuto</string>
+    <string name="menu_main_pairing">Accoppiamento</string>
+    <string name="menu_main_settings">Preferenze</string>
+    <string name="layout_main_appTitle">Blue Talkie</string>
+    <string name="layout_main_btnOpenChannel">Apri nuovo canale</string>
+    <string name="layout_main_btnJoin">Unisciti al canale</string>
+    <string name="layout_channel_title">Canale</string>
+    <string name="layout_pairing_title">Accoppiamento</string>
+    <string name="dialog_about_text"><![CDATA[Blue Talkie\n
+- Passo 1: accoppia due dispositivi bluetooth (puoi usare la voce accoppiamento da qui)\n
+- Passo 2: un utente apre il canale, e quindi dovrà scegliere \"Apri nuovo canale\"\n
+- Passo 3: tutti gli altri utenti useranno \"Unisciti al canale\" selezionando il dispositivo precedentemente accoppiato\n
+- Passo 4: tenere premuto il pulsante \"Premere per parlare\" per parlare, poi rilasciare]]></string>
+    <string name="menu_channel_quit">Esci</string>
+    <string name="layout_channel_user_connected">Utente connesso</string>
+    <string name="layout_channel_user_disconnected">Utente disconnesso</string>
+    <string name="layout_channel_connected">Connesso</string>
+    <string name="layout_channel_connecting">Connettendo...</string>
+    <string name="layout_channel_userConnected">Utenti connessi</string>
+    <string name="preference_cat_mydetails">I miei dettagli</string>
+    <string name="preference_lbl_myname">Il mio nome</string>
+    <string name="preference_cat_sounds">Suoni</string>
+    <string name="preference_lbl_clicksound">Suono di chiusura</string>
+    <string name="preference_lbl_voiceactivated">Attivato via voce</string>
+    <string name="layout_channel_btnClickToTalk">Premere per parlare</string>
+    <string name="layout_channel_btnCloseChannel">Chiudi canale</string>
+</resources>

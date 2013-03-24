@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="ki.bluetalkie"
+      android:versionCode="9"
+      android:versionName="0.9">
+      
+    <application android:label="@string/app_name" android:icon="@drawable/icon">
+        <activity android:name=".activity.Main"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Preferences" android:label="@string/layout_preferences_title"></activity>
+        <activity android:name=".activity.Channel" android:label="@string/layout_channel_title"></activity>
+        <activity android:name=".activity.JoinChannel" android:label="@string/layout_main_btnJoin"></activity>
+        <service android:name=".service.ChannelService"></service>
+    </application>
+    
+    <uses-sdk android:minSdkVersion="7"/>
+    
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    
+   	<supports-screens
+		android:smallScreens="true" 
+		android:normalScreens="true" 
+		android:largeScreens="true" 
+		android:anyDensity="true"
+	/>
+    
+</manifest> 
